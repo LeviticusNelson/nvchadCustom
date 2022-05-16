@@ -9,7 +9,8 @@ M.plugins = {
 }
 
 M.ui = {
-   theme = "onedark",
+   theme = "radium",
+   colors = "custom.colors",
 }
 
 return M
