@@ -8,4 +8,10 @@ return {
    ["goolord/alpha-nvim"] = {
       disable = false,
    },
+
+   ["luukvbaal/stabilize.nvim"] = {
+      config = function()
+         require("stabilize").setup()
+      end,
+   },
 }
