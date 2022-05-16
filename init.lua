@@ -1,9 +1,8 @@
--- example file i.e lua/custom/init.lua
+local presets = require "which-key.plugins.presets"
+presets.operators["v"] = nil
 
 -- MAPPINGS
 local map = nvchad.map
-local presets = require "which-key.plugins.presets"
-presets.operators["v"] = nil
 
 map("n", "<leader>cc", ":Telescope <CR>")
 map("n", "<leader>q", ":q <CR>")
