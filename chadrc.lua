@@ -2,7 +2,11 @@ local M = {}
 
 M.plugins = {
    user = require "custom.plugins",
-   setup_lspconf = require "custom.plugins.lspconfig",
+   options = {
+      lspconfig = {
+         setup_lspconf = "custom.plugins.lspconfig",
+      },
+   },
 }
 
 M.ui = {
