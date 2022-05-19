@@ -11,5 +11,5 @@ local autocmd = vim.api.nvim_create_autocmd
 
 autocmd({ "BufNewFile", "BufRead" }, {
    pattern = "*.cls,*.trigger",
-   command = "set filetype=apexcode",
+   command = "set filetype=apexcode | set syntax=typescript",
 })
