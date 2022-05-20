@@ -12,3 +12,5 @@ https://nvchad.github.io/getting-started/setup
   git clone https://github.com/LeviticusNelson/nvchadCustom.git
   mv nvchadCustom custom
   ```
+- Ensure everything is installed in vim with custom config:
+`:PackerSync`
