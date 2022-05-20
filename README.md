@@ -1,5 +1,5 @@
 # nvchadCustom
-Custom config for Nvchad By Levi Nelson
+Custom config for Nvchad By Levi Nelson that has (somewhat) support for Apex
 
 ## Instructions to Install
 - If you don't have NvChad: 
